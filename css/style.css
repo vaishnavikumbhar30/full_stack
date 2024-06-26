@@ -1475,21 +1475,44 @@ font-size: 20px !important;
 @media screen and (min-width:280px) and (max-width:500px){
 
   .whats-app-enroll-btn{
-    flex-direction: column;
+    flex-direction:row;
+    
       }
+      
+      .whtasapp-btn{
+        font-size: 14px;
+      }
+      .enroll-btn{
+        font-size: 15px;
+      }
+
+      .fa-whatsapp{
+        font-size: 14px !important;
+        
+        
+        }
+        
+        .fa-check{
+          font-size: 18px !important;
+          }
+        
+
 .carousel-item h1{
-  font-size: 23px;
+  font-size: 21px;
+  margin-left: 20px;
+  
 }
 #detail-box{
-  height:21vh !important;
+  height:30vh !important;
+  font-size: 14px;
 }
 
 .logo-dscip {
-  height: 4rem !important;
-  width: 16rem !important;
-  padding-left:0 !important;
-}
-
+  height: 3rem !important;
+  width: 10rem !important;
+  padding-left:3px !important;
+  margin: 5px; 
+} 
   .info_section .info_links {
     flex-direction: column;
     gap:0px;
